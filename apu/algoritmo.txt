@@ -1,0 +1,52 @@
+Proyecto Apu
+
+todas las páginas se abren 
+INDEX
+colores
+banner - logo -
+
+seccion de ingresar usuario y contraseña
+registrarse. 
+
+ofertas.
+
+nombre, descripcion( golosinería de apu) 
+datos de contacto de apu - direccion, horario,mail y telefono y redes sociales
+
+TIENDA-CATALOGO-
+
+con botones y alerts-promps
+
+-los productos, precios
+
+-icono de carrito 
+
+cantidad y agregar cosas
+
+mi carrito.
+	opcion de agregar, eliminar,imagen de producto, nombre de producto, precio total y con descuento
+	finalizar compra	
+	registro de usuario
+	opcion de retiro
+	opciones de pago
+	confirmar.
+	
+
+
+QUINES SOMOS
+
+apu y su historia
+
+CONTACTO usuario
+
+formulario
+
+nombre y apellido
+mail
+telefono
+mensaje
+
+
+registro e ingrese usuario.
+carrito agregar y depués el pago.
+

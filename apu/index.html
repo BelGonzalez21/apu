@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>APUS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
+    </style> 
+    
+  </head>
+
+  <body>
+     <!--menu--> 
+    <nav class="navbar navbar-expand-lg sticky-top barra-f">
+        <a class="navbar-brand" col-4 href="#">
+            <img  src="./IMAGES/logo-03.svg" alt="logo" width="300" >
+        </a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#productos">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">CONTACTO</a>
+            </li>
+            <li>
+                <!--<button class="boton"onclick ="agregar()">AGREGAR</button>-->
+                <button class="boton" id="boton" > Iniciar Sesion</button>
+            </li>
+            
+          </ul>
+    </nav>
+            
+    </nav>
+
+    <!--carrusel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMAGES/slide-04.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/slide-05.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGES/slide-06.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <!--nosotros-->
+
+    <div class="form-row" id="nosotros">
+        <div class="row nosotrosBox">
+            <div class="col">
+                  <div class="row nosotros-titulo">NOSOTROS</div>
+                  <div class="row nosotros-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea modi officiis fugit quas saepe perferendis! Dicta vitae doloremque vel, numquam est obcaecati perspiciatis error dolores! Magnam libero iure consequuntur voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea modi officiis fugit quas saepe perferendis! Dicta vitae doloremque vel, numquam est obcaecati perspiciatis error dolores! Magnam libero iure consequuntur voluptatum.
+                      
+                </div>
+            </div>
+            <div class="col bandera"><img src="./IMAGES/bandera.png" class="d-block w-100" height="100%" width="100%" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <!--productos-->
+    <div class="row nosotros-titulo" id="productos">PRODUCTOS</div>
+    <div class="container">
+        <div class="row gallery">
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-07.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-08.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-09.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-10.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-11.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4" style="width: 18rem;">
+                <img src="./IMAGES/golosinas-12.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <div class="row botonesAQ">
+                        <button class="boton"onclick ="agregar()">AGREGAR</button>
+                        <button class="boton" onclick="quitar()">QUITAR</button>
+                    </div>
+                </div>
+            </div>
+                      
+        </div>
+    </div>
+    <!--contacto-->
+    <section>
+        <div class="nosotros-titulo-container">
+            <h2 class="nosotros-titulo" id="contacto">contacto</h2> 
+        </div>
+        <div class="contact-body"> 
+                <div class="contact-wrapper animated bounceInUp row">
+                    <div class="contact-form col-8">
+                        <form action="">
+                            <p>
+                                <label>Nombre y Apellido *</label>
+                                <input type="text" name="fullname">
+                            </p>
+                            <p>
+                                <label>Email *</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label>Teléfono *</label>
+                                <input type="tel" name="phone">
+                            </p>
+                            <p class="block">
+                               <label>Mensaje</label> 
+                                <textarea name="message" rows="3"></textarea>
+                            </p>
+                            <p class="block">
+                                <button>
+                                    Enviar
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                    <div class="contact-info col-4">
+                        <h4>¡Estoy acá!</h4>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"> </i> VISITAME EN <br>
+                                Segunda Calle 315 - Springfield</li> <br>
+                            <li><i class="fas fa-phone"> </i>LLAMAME <br>
+                                (+54) 11 4777 4900</li><br>
+                            <li><i class="fas fa-envelope-open-text"> </i>ESCRIBIME <br>
+                                contacto@kem.com.ar</li><br>
+                        </ul>
+                        <p>STALKEANOS</p>
+                        <p> https://www.facebook.com/APU_kem
+                            https://www.instagram.com/APU_kem
+                            https://ar.linkedin.com/APU_kem
+                        </p>
+                    </div>
+                </div>
+        </div><!--class="contact-body"-->
+    </section>
+
+    <!--javascript-->
+    <script src="app.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    
+    
+  </body>
+</html>
